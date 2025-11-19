@@ -1,0 +1,8 @@
+A-El TESTING tiene fondo azul.
+B-El DESARROLLO tiene fondo amarillo .
+C-El MASTER tiene fondo azul, porque debíamos elegir entre azul y amarillo para que funcionaran los merges. 
+D-Quedo el favicon de Beta.
+
+Morro Luciano
+Diaz Jair
+Cespedes Leandro
