@@ -5,11 +5,13 @@ D-Quedo el favicon de Beta.
 E-Los integrantes que tuvieron problemas para hacer el push fueron BETA y GAMMA.
 F- El problema que surgio fue que a BETA y GAMMA les rechazaba el push. 
 G-Para solucionar el problema BETA y GAMMA hicieron un push -f y la consecuencia fue que se reemplaza la versión que está en GitHub con la versión local del que ejecuta el comando, sin respetar los commits previos.
-H-Si cada uno utiliza el push -f se forza el push. 
-I- git add .
+H-Si cada uno utiliza el push -f se sobrescribe completamente el repositorio remoto. 
+I-git checkout TESTING
+git pull
+git add .
 git commit -m
 git push 
-git checkout DESAROLLO
+git checkout DESARROLLO
 git merge TESTING
 git push 
 
